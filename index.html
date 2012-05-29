@@ -15,6 +15,7 @@
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
 	<header>
 		<a herf="/index.php" class="logo"><img src="images/logo.png"></a>
 		<nav></nav>
@@ -38,5 +39,31 @@
 		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
+=======
+  <!--[if lt IE 8]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header>
+    <a herf="/index.php" class="logo"><img src="images/logo.png"></a>
+    <nav></nav>
+  </header>
+  <div role="main">
+
+  </div>
+  <footer>
+    <ul class="utilities"></ul>
+  </footer>
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <!-- scripts concatenated and minified via build script -->
+  <script src="inc/js/plugins.js"></script>
+  <script src="inc/js/script.js"></script>
+  <!-- end scripts -->
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+>>>>>>> Moved includes to /inc folder
 </body>
 </html>
